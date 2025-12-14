@@ -1,0 +1,11 @@
+total 36
+-rw-r--r-- 1 root  root    12 Dec 14 07:51 file.txt
+drwxr-xr-x 4 lancy lancy 4096 Dec 14 07:54 ..
+-rw-r--r-- 1 root  root    12 Dec 14 08:18 dipak.txt
+-rw-r--r-- 1 root  root    11 Dec 14 08:52 README.md
+-rw------- 1 root  root   411 Dec 14 09:15 git branch
+-rw-r--r-- 1 root  root   100 Dec 14 09:15 git branch.pub
+drwxr-xr-x 3 root  root  4096 Dec 14 09:19 .github
+drwxr-xr-x 8 root  root  4096 Dec 14 09:30 .git
+drwxr-xr-x 4 root  root  4096 Dec 14 09:31 .
+-rw-r--r-- 1 root  root     0 Dec 14 09:31 dir.txt

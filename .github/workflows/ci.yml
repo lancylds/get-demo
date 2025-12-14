@@ -1,0 +1,25 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v4
+
+    - name: Set up environment
+      run: |
+        echo "Running CI on GitHub Actions"
+        uname -a
+
+    - name: Run basic checks
+      run: |
+        echo "No build steps defined yet"
+        echo "CI pipeline executed successfully"
